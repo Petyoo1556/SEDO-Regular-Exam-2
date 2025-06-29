@@ -48,7 +48,7 @@ namespace Horizons.UnitTests
         [Test]
         public async Task Add_Get_ShouldReturnViewWithTerrains()
         {
-            // Act
+            // Act -test
             var result = await _controller.Add();
 
             // Assert
